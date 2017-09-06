@@ -45,7 +45,8 @@
 				"summary": "get",
 				"description": "Returns a ConsumerData",
 				"operationId": "getConsumerInformation",
-				"produces": ["application/json"],
+				"consumes": ["application/json", "application/xml"],
+				"produces": ["application/json", "application/xml"],
 				"parameters": [{
 						"name": "username",
 						"in": "path",
