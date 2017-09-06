@@ -16,6 +16,9 @@
 	"host": "localhost:9081",
 	"basePath": "/MRRestWAR/rest",
 	"tags": [{
+			"name": "getConsumerInformation",
+			"description": "Consumer Information"
+		},{
 			"name": "pet",
 			"description": "Everything about your Pets",
 			"externalDocs": {
