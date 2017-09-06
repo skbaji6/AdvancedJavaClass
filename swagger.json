@@ -34,17 +34,17 @@
 			}
 		}
 	],
-	"schemes": ["http","https"],
+	"schemes": ["http", "https"],
 	"paths": {
-		"/aarpm/member/getConsumerInformation/{username}":{
-		"get": {
+		"/aarpm/member/getConsumerInformation/{username}": {
+			"get": {
 				"tags": ["getConsumerInformation"],
 				"summary": "get",
 				"description": "Returns a ConsumerData",
 				"operationId": "getConsumerInformation",
 				"produces": ["application/json"],
 				"parameters": [{
-						"name": "User Name",
+						"name": "username",
 						"in": "path",
 						"description": "UserName of Consumer",
 						"required": true,
@@ -64,7 +64,7 @@
 					"404": {
 						"description": "Pet not found"
 					}
-				},
+				}
 			}
 		}
 		"/pet": {
@@ -882,8 +882,8 @@
 					"type": "integer",
 					"format": "int64"
 				}
-				}
-			
+			}
+
 		}
 	},
 	"externalDocs": {
