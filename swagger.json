@@ -13,7 +13,7 @@
 			"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
 		}
 	},
-	"host": "localhost:9081",
+	"host": "apsrt0245:9084",
 	"basePath": "/MRRestWAR/rest",
 	"tags": [{
 			"name": "getConsumerInformation",
@@ -37,7 +37,7 @@
 			}
 		}
 	],
-	"schemes": ["http", "https"],
+	"schemes": ["http"],
 	"paths": {
 		"/aarpm/member/getConsumerInformation/{username}": {
 			"get": {
